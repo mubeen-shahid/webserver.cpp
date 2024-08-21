@@ -9,7 +9,7 @@ to compile it, and
 ```bash ./webserver```
 to start the server.
 
-**To visit you local webpage**
+**To visit your local webpage**
 simply open your favorite webbrowser and enter either 
 ```link
 http://localhost:8080/
