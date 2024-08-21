@@ -8,12 +8,11 @@ After that,
 g++ main.cpp -O3 -o webserver && chmod +x webserver
 ```
 to compile it, and 
-```bash
-./webserver
-```
+```bash ./webserver ```
 to start the server.
 
-**To visit you local webpage**, simple open your favorite webbrowser and enter either 
+**To visit you local webpage**
+simply open your favorite webbrowser and enter either 
 ```link
 http://localhost:8080/
 ```
