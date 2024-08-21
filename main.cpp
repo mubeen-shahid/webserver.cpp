@@ -39,8 +39,8 @@ int main()
     std::ifstream file("index.html");
     std::string file_content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
 
-    while (true) {
-        // Accept a connection
+    while (true)
+    {
         struct sockaddr_in client_addr;
         socklen_t client_addr_len = sizeof(client_addr);
         int client_fd = accept(server_fd, (struct sockaddr*)&client_addr, &client_addr_len);
